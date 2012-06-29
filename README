@@ -1,0 +1,2 @@
+Run the following command for a command line updating Wimbledon Scoreboard
+watch -dn60 ./wimbledonScores.sh
