@@ -25,7 +25,7 @@ def output_page(url)
   end
 end
 
+puts "---- Live ----"
 output_page("http://wimbledon.com/en_GB/scores/index2.html")
 puts "---- Completed ----"
-day = find_day
-output_page("http://www.wimbledon.com/en_GB/scores/results/#{day}.html")
+output_page("http://www.wimbledon.com/en_GB/scores/results/#{find_day}.html")
