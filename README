@@ -1,2 +1,7 @@
 Run the following command for a command line updating Wimbledon Scoreboard
-watch -dn60 ./wimbledonScores.sh
+use ruby 1.9.2
+gem install nokogiri
+run ./current.rb
+
+To get fancy try
+watch -dn20 ./current.rb
